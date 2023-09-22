@@ -1,0 +1,12 @@
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/bin/Debug/net7.0/Logger.deps.json
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/bin/Debug/net7.0/Logger.dll
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/bin/Debug/net7.0/Logger.pdb
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.csproj.AssemblyReference.cache
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.AssemblyInfoInputs.cache
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.AssemblyInfo.cs
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.csproj.CoreCompileInputs.cache
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.dll
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/refint/Logger.dll
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/Logger.pdb
+/Users/TobyArmstorng/Projects/assignment8agario-ms_ostrich/Logger/obj/Debug/net7.0/ref/Logger.dll

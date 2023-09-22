@@ -1,0 +1,116 @@
+﻿<ContentPage
+ xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="ClientGui.MainPage">
+    <StackLayout
+        BackgroundColor="DarkSlateBlue">
+        <ScrollView
+         x:Name="WelcomeScreen"
+         IsVisible="true">
+            <VerticalStackLayout
+            Spacing="50"
+            Padding="30,0"
+            VerticalOptions="Center">
+                <Label
+                     Text="Agar.two"
+                     FontSize="50"
+                     HorizontalOptions="Center"/>
+
+                <HorizontalStackLayout
+                     HorizontalOptions="Center">
+                    <Label
+                         Text="Player Name: "
+                         FontSize="18"/>
+
+                    <Entry
+                         x:Name="NameEntry"
+                         Placeholder="Please Enter Your Name Here"
+                         BackgroundColor="White"
+                         Text=""
+                         TextColor="Black"
+                         FontSize="18"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout
+                        HorizontalOptions="Center">
+                    <Label
+                         Text="Server: "
+                         FontSize="18"/>
+
+                    <Entry
+                         x:Name="ServerEntry"
+                         Placeholder="Please Enter the Server Here"
+                         BackgroundColor="White"
+                         Text=""
+                         TextColor="Black"
+                         FontSize="18"/>
+                </HorizontalStackLayout>
+
+                <Button
+                    x:Name="ConnectButton"
+                    Text="Connect to Server!"
+                    TextColor="Black"
+                    FontSize="18"
+                    Clicked="ConnectButtonClicked"
+                    HorizontalOptions="Center"/>
+
+                <Label
+                     x:Name="ErrorDisplay"
+                     HorizontalOptions="Center"
+                     Text=""
+                     FontSize="24"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+        <VerticalStackLayout
+         x:Name="GameScreen"
+         IsVisible="false">
+            <HorizontalStackLayout>
+                <GraphicsView 
+                 x:Name="PlaySurface"
+                 HorizontalOptions="Center"
+                 BackgroundColor="White"
+                 HeightRequest="800"
+                 WidthRequest="800">
+                    <GraphicsView.GestureRecognizers>
+                        <PointerGestureRecognizer PointerMoved="PointerPosition"/>
+                        <TapGestureRecognizer Tapped="OnTap"/>
+                    </GraphicsView.GestureRecognizers>
+                </GraphicsView>
+
+                <VerticalStackLayout
+                 Spacing="50">
+                    <Label
+                     x:Name="MassLabel"
+                     HorizontalOptions="Center"
+                     Text=""
+                     FontSize="20"/>
+
+                    <Label
+                     x:Name="RadiusLabel"
+                     HorizontalOptions="Center"
+                     Text=""
+                     FontSize="20"/>
+
+                    <Label
+                     x:Name="LocationLabel"
+                     HorizontalOptions="Center"
+                     Text=""
+                     FontSize="20"/>
+
+                    <Label
+                     x:Name="PlayerNumberLabel"
+                     HorizontalOptions="Center"
+                     Text=""
+                     FontSize="20"/>
+
+                    <Label
+                     x:Name="FoodNumberLabel"
+                     HorizontalOptions="Center"
+                     Text=""
+                     FontSize="20"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </StackLayout>
+</ContentPage>

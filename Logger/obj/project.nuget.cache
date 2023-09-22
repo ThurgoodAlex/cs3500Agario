@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oCfNFAw5jqzk6KHznjaxAvYotJUyT7OvnqiOfAw/8eYqW52/QM9tH76ur8G1NQFca+hvP60OSx2Cg20DxBkVWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adthu\\Source\\Repos\\assignment8agario-ms_ostrich\\Logger\\Logger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\adthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\adthu\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\adthu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\adthu\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\adthu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
